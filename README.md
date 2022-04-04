@@ -167,15 +167,25 @@ There are lots of objects moving around in space. Write a program that will pred
 
 In 1687, Isaac Newton formulated the principles governing the motion of two particles under the influence of their mutual gravitational attraction. As a close approximation, we will assume everything orbits the sun on a two-dimensional plane. Let `Δx` represent the difference in the position of two object, `A` & `B`, along the X coordinate and let `Δy` represent the difference along the Y coordinate. Calculate `r`, the distance between the two objects in meters, using
 
-Asteroids are primarily influenced by the gravitational attractions of the sun since it is six orders of magnitude more massive than any of the planets. We can represent the mass of the sun, 1.9890 × 10^30 Kg, as MSUN and the mass of an asteroid as MA.
+![](/assets/image002.png "")
+
+Asteroids are primarily influenced by the gravitational attractions of the sun since it is six orders of magnitude more massive than any of the planets. We can represent the mass of the sun, 1.9890 × 10<sup>30</suo> Kg, as M<sub>SUN</sub> and the mass of an asteroid as M<sub>A</sub>.
 
 The force in Newtons pulling an asteroid to the sun can be calculated using
 
-where `G` is the gravitational constant, 6.67 × 10−11 in the units N·m2·kg−2.  The force can be divided into X and Y components by:
+![](/assets/image003.png "")
+
+where `G` is the gravitational constant, 6.67 × 10<sup>-11</sup> in the units N·m<sup>2</sup>·kg<sup>-2</sup>. The force can be divided into X and Y components by:
+
+![](/assets/image004.png "")
 
 The force will accelerate the asteroid following Newton's second law of motion, F = ma. Over a small change in time, `Δt`, the velocity of an asteroid is changed by
 
+![](/assets/image005.png "")
+
 After calculating the change in velocity of an asteroid, the position of the asteroid can be updated by
+
+![](/assets/image006.png "")
 
 By repeating these calculations every `Δt` seconds, the asteroid will move under the gravitational force of the sun. A `Δt` of `21`, `600` seconds (6 hours) should be used for an accurate location.
 
