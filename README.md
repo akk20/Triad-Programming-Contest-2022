@@ -41,17 +41,17 @@ Write a program that will interpret a simple stack oriented script language.  Th
 
 `variablename number`
 
-where `variablename` is the name of a program variable. Program variables are case insensitive and may contain only letters. The number is an integer value.  There may be up to `16` variables. The end of the variable list is denoted by a line containing only `program`. Following the program line are executable statements. There are *seven* possible statement types:
+where `variablename` is the name of a program variable. Program variables are case insensitive and may contain only letters. The `number` is an integer value.  There may be up to `16` variables. The end of the variable list is denoted by a line containing only `program`. Following the program line are executable statements. There are *seven* possible statement types:
 
 | Statement | Action |
 | :------------- | :------------- |
-| push var | Push the value of the specified variable onto the stack. |
-| pop var | Remove the top of stack value and store it in the specified variable. |
-| add | Add the top two values on the stack. Remove the two values on top of the stack and store the addition result on the top of the stack. |
-| sub | Subtract the top of the stack value from the value immediately below the top of the stack.  Remove the two values on top of the stack and store the subtraction result on the stack. |
-mult | Multiply the top of the stack value with the value immediately below the top of the stack. Remove the two values on top of the stack and store the product result on the stack. |
-| div | Divide the top of the stack value by the value immediately below the top of the stack. Remove the two values on top of the stack and store the division result on the stack. |
-| display | Display “Top of stack:” followed by the value of the top of the stack. The value on the top of the stack is not changed or removed. |
+| `push var` | Push the value of the specified variable onto the stack. |
+| `pop var` | Remove the top of stack value and store it in the specified variable. |
+| `add` | Add the top two values on the stack. Remove the two values on top of the stack and store the addition result on the top of the stack. |
+| `sub` | Subtract the top of the stack value from the value immediately below the top of the stack.  Remove the two values on top of the stack and store the subtraction result on the stack. |
+| `mult` | Multiply the top of the stack value with the value immediately below the top of the stack. Remove the two values on top of the stack and store the product result on the stack. |
+| `div` | Divide the top of the stack value by the value immediately below the top of the stack. Remove the two values on top of the stack and store the division result on the stack. |
+| `display` | Display “Top of stack:” followed by the value of the top of the stack. The value on the top of the stack is not changed or removed. |
 
 There may be up to `256` program statements. The end of the program statements is denoted by a line containing only `end`. All variable names and commands are case insensitive, so `ADD`, `add` and `Add` are all the same.
 
