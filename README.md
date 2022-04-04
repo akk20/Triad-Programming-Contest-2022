@@ -176,25 +176,25 @@ Asteroids are primarily influenced by the gravitational attractions of the sun s
 The force in Newtons pulling an asteroid to the sun can be calculated using
 
 <p align="center">
-  <img src="/assets/image003.png">
+  <img src="/assets/image003.jpg">
 </p>
 
 where `G` is the gravitational constant, 6.67 × 10<sup>-11</sup> in the units N·m<sup>2</sup>·kg<sup>-2</sup>. The force can be divided into `X` and `Y` components by:
 
-<p align="center" style=”background-color: white; height: 100%; width: auto;”>
-  <img src="/assets/image004.png">
+<p align="center">
+  <img src="/assets/image004.jpg">
 </p>
 
 The force will accelerate the asteroid following Newton's second law of motion, F = ma. Over a small change in time, `Δt`, the velocity of an asteroid is changed by
 
-<p align="center" style=”background-color: white; height: 100%; width: auto;”>
-  <img src="/assets/image005.png">
+<p align="center">
+  <img src="/assets/image005.jpg">
 </p>
 
 After calculating the change in velocity of an asteroid, the position of the asteroid can be updated by
 
-<p align="center" style=”background-color: white; height: 100%; width: auto;”>
-  <img src="/assets/image006.png">
+<p align="center">
+  <img src="/assets/image006.jpg">
 </p>
 
 By repeating these calculations every `Δt` seconds, the asteroid will move under the gravitational force of the sun. A `Δt` of `21`, `600` seconds (6 hours) should be used for an accurate location.
