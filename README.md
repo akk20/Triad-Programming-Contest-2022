@@ -271,10 +271,10 @@ Sample input from `donut.txt`:
 ```
 5 5
 1 1
-2 3 18 22 6
-4 8 11 7 12
-1 9 21 16 17
-5 19 33 15 13
+2  3  18 22 6
+4  8  11 7  12
+1  9  21 16 17
+5  19 33 15 13
 44 10 14 18 20
 ```
 
@@ -284,10 +284,8 @@ Sample output:
 161 donuts were found
 ```
 
-Explanation for solution:
-<!-- The correct path is:
-2 3 18 22  6
-4  8 11  7 12
-1  9 21 16 17
-5 19 33 15 13
-44 10 14 18 20 -->
+Explanation for solution:  
+The correct path is:
+<p align="center">
+  <img src="/assets/image007.png">
+</p>
