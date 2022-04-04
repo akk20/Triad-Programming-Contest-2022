@@ -167,7 +167,9 @@ There are lots of objects moving around in space. Write a program that will pred
 
 In 1687, Isaac Newton formulated the principles governing the motion of two particles under the influence of their mutual gravitational attraction. As a close approximation, we will assume everything orbits the sun on a two-dimensional plane. Let `Δx` represent the difference in the position of two object, `A` & `B`, along the X coordinate and let `Δy` represent the difference along the Y coordinate. Calculate `r`, the distance between the two objects in meters, using
 
-<img src="/assets/image002.png" style=”background-color=white;”>
+<p align="center">
+  <img src="/assets/image002.png" style=”background-color=white;”>
+</p>
 
 Asteroids are primarily influenced by the gravitational attractions of the sun since it is six orders of magnitude more massive than any of the planets. We can represent the mass of the sun, 1.9890 × 10<sup>30</suo> Kg, as M<sub>SUN</sub> and the mass of an asteroid as M<sub>A</sub>.
 
