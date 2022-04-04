@@ -167,7 +167,7 @@ There are lots of objects moving around in space. Write a program that will pred
 
 In 1687, Isaac Newton formulated the principles governing the motion of two particles under the influence of their mutual gravitational attraction. As a close approximation, we will assume everything orbits the sun on a two-dimensional plane. Let `Δx` represent the difference in the position of two object, `A` & `B`, along the `X` coordinate and let `Δy` represent the difference along the `Y` coordinate. Calculate `r`, the distance between the two objects in meters, using
 
-<p align="center" style=”background-color: white;”>
+<p align="center" style=”background-color: white; height: 100%; width: auto;”>
   <img src="/assets/image002.png">
 </p>
 
@@ -175,25 +175,25 @@ Asteroids are primarily influenced by the gravitational attractions of the sun s
 
 The force in Newtons pulling an asteroid to the sun can be calculated using
 
-<p align="center" style=”background-color: white;”>
+<p align="center" style=”background-color: white; height: 100%; width: auto;”>
   <img src="/assets/image003.png">
 </p>
 
 where `G` is the gravitational constant, 6.67 × 10<sup>-11</sup> in the units N·m<sup>2</sup>·kg<sup>-2</sup>. The force can be divided into `X` and `Y` components by:
 
-<p align="center" style=”background-color: white;”>
+<p align="center" style=”background-color: white; height: 100%; width: auto;”>
   <img src="/assets/image004.png">
 </p>
 
 The force will accelerate the asteroid following Newton's second law of motion, F = ma. Over a small change in time, `Δt`, the velocity of an asteroid is changed by
 
-<p align="center" style=”background-color: white;”>
+<p align="center" style=”background-color: white; height: 100%; width: auto;”>
   <img src="/assets/image005.png">
 </p>
 
 After calculating the change in velocity of an asteroid, the position of the asteroid can be updated by
 
-<p align="center" style=”background-color: white;”>
+<p align="center" style=”background-color: white; height: 100%; width: auto;”>
   <img src="/assets/image006.png">
 </p>
 
