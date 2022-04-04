@@ -278,7 +278,6 @@ Sample input from `donut.txt`:
 44 10 14 18 20
 ```
 
-
 Sample output:
 ```
 161 donuts were found
@@ -286,6 +285,6 @@ Sample output:
 
 Explanation for solution:  
 The correct path is:
-<p align="center">
+<p>
   <img src="/assets/image007.png">
 </p>
