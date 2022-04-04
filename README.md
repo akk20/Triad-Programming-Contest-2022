@@ -167,7 +167,7 @@ There are lots of objects moving around in space. Write a program that will pred
 
 In 1687, Isaac Newton formulated the principles governing the motion of two particles under the influence of their mutual gravitational attraction. As a close approximation, we will assume everything orbits the sun on a two-dimensional plane. Let `Δx` represent the difference in the position of two object, `A` & `B`, along the X coordinate and let `Δy` represent the difference along the Y coordinate. Calculate `r`, the distance between the two objects in meters, using
 
-![](/assets/image002.png "")
+<img src="/assets/image002.png" style=”background-color=white;”>
 
 Asteroids are primarily influenced by the gravitational attractions of the sun since it is six orders of magnitude more massive than any of the planets. We can represent the mass of the sun, 1.9890 × 10<sup>30</suo> Kg, as M<sub>SUN</sub> and the mass of an asteroid as M<sub>A</sub>.
 
@@ -214,7 +214,7 @@ After a week, the asteroid is at -2.10211E10, 6.81892E10
 
 ## Problem G: Correct Change
 
-Each hot dog costs $5 at the Myrtle beach food truck festival. Customers are standing in a queue to buy them from you, and order only one at a time with bills of $5, $10, or $20. Each customer will only buy one hot dog and pay with either a $5, $10, or $20 bill. As a seller, you must provide the correct change to each customer to make sure the net transaction of customer payment is $5. Note that you don't have any change on hand at first. For a given list of bills, write a program to decide if you can give each customer the correct change. If so, display `true`, otherwise display `false`.
+Each hot dog costs $5 at the Myrtle beach food truck festival. Customers are standing in a queue to buy them from you, and order only one at a time with bills of `$5`, `$10`, or `$20`. Each customer will only buy one hot dog and pay with either a `$5`, `$10`, or `$20` bill. As a seller, you must provide the correct change to each customer to make sure the net transaction of customer payment is `$5`. Note that you don't have any change on hand at first. For a given list of bills, write a program to decide if you can give each customer the correct change. If so, display `true`, otherwise display `false`.
 
 Input will be from the file `money.txt` The first number in the file will be an integer specifying the number of test cases. Each test case will start with an integer, `n`, indicating how many hot dog purchases will be made. This will be followed by `n` numbers, either `5`, `10` or `20`, separated by whitespace.
 
