@@ -165,42 +165,50 @@ No zero sum
 
 There are lots of objects moving around in space. Write a program that will predict the position of an asteroid at a given time in the future based on its current position and speed.
 
-In 1687, Isaac Newton formulated the principles governing the motion of two particles under the influence of their mutual gravitational attraction. As a close approximation, we will assume everything orbits the sun on a two-dimensional plane. Let `Δx` represent the difference in the position of two object, `A` & `B`, along the X coordinate and let `Δy` represent the difference along the Y coordinate. Calculate `r`, the distance between the two objects in meters, using
+In 1687, Isaac Newton formulated the principles governing the motion of two particles under the influence of their mutual gravitational attraction. As a close approximation, we will assume everything orbits the sun on a two-dimensional plane. Let `Δx` represent the difference in the position of two object, `A` & `B`, along the `X` coordinate and let `Δy` represent the difference along the `Y` coordinate. Calculate `r`, the distance between the two objects in meters, using
 
-<p align="center">
-  <img src="/assets/image002.png" style=”background-color=white;”>
+<p align="center" style=”background-color: white;”>
+  <img src="/assets/image002.png">
 </p>
 
 Asteroids are primarily influenced by the gravitational attractions of the sun since it is six orders of magnitude more massive than any of the planets. We can represent the mass of the sun, 1.9890 × 10<sup>30</suo> Kg, as M<sub>SUN</sub> and the mass of an asteroid as M<sub>A</sub>.
 
 The force in Newtons pulling an asteroid to the sun can be calculated using
 
-![](/assets/image003.png "")
+<p align="center" style=”background-color: white;”>
+  <img src="/assets/image003.png">
+</p>
 
-where `G` is the gravitational constant, 6.67 × 10<sup>-11</sup> in the units N·m<sup>2</sup>·kg<sup>-2</sup>. The force can be divided into X and Y components by:
+where `G` is the gravitational constant, 6.67 × 10<sup>-11</sup> in the units N·m<sup>2</sup>·kg<sup>-2</sup>. The force can be divided into `X` and `Y` components by:
 
-![](/assets/image004.png "")
+<p align="center" style=”background-color: white;”>
+  <img src="/assets/image004.png">
+</p>
 
 The force will accelerate the asteroid following Newton's second law of motion, F = ma. Over a small change in time, `Δt`, the velocity of an asteroid is changed by
 
-![](/assets/image005.png "")
+<p align="center" style=”background-color: white;”>
+  <img src="/assets/image005.png">
+</p>
 
 After calculating the change in velocity of an asteroid, the position of the asteroid can be updated by
 
-![](/assets/image006.png "")
+<p align="center" style=”background-color: white;”>
+  <img src="/assets/image006.png">
+</p>
 
 By repeating these calculations every `Δt` seconds, the asteroid will move under the gravitational force of the sun. A `Δt` of `21`, `600` seconds (6 hours) should be used for an accurate location.
 
 The program must first read in data about the asteroid. The input file, `asteroid.txt`, contains the position, velocity and mass of the asteroid. A single line contains:
-- X position of the asteroid in meters from the sun
-- Y position of the asteroid in meters from the sun
-- X direction velocity of the asteroid in meters/second
-- Y direction velocity of the asteroid in meters/second
-Mass of the asteroid in Kg
+- `X` position of the asteroid in meters from the sun
+- `Y` position of the asteroid in meters from the sun
+- `X` direction velocity of the asteroid in meters/second
+- `Y` direction velocity of the asteroid in meters/second
+- Mass of the asteroid in `Kg`
 
 We will assume the sun is motionless at position `0, 0`.
 
-Display the X and Y coordinates of the asteroid in one week, 604, 800 seconds, from the start.
+Display the `X` and `Y` coordinates of the asteroid in one week, 604, 800 seconds, from the start.
 
 Sample input from `asteroid.txt`:
 ```
