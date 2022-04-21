@@ -78,10 +78,6 @@ Example output:
 Top of stack: 5
 Top of stack: 9
 ```
-<!-- ```
-Top of stack: 5
-Top of stack: 13
-``` -->
 
 ## Problem C: Fire Plane Dispatcher
 
